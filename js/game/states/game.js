@@ -56,10 +56,6 @@ ZenvaRunner.Game.prototype = {
         this.jetSound = this.game.add.audio('rocket');
         this.coinSound = this.game.add.audio('coin');
         this.deathSound = this.game.add.audio('death');
-        this.gameMusic = this.game.add.audio('gameMusic');
-        
-        this.gameMusic.play('',0,true);
-        
         this.coinSpawnX = this.game.width + 64;
     },
     
