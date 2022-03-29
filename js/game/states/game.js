@@ -134,7 +134,6 @@ ZenvaRunner.Game.prototype = {
         player.kill();
         enemy.kill();
         this.deathSound.play();
-        this.gameMusic.stop();
         this.ground.stopScroll();
         this.background.stopScroll();
         this.foreground.stopScroll();
